@@ -12,7 +12,7 @@ async def get_user_by_id():
 async def create_user():
     pass
 
-@router.post("/update")
+@router.put("/update")
 async def update_user():
     pass
 @router.delete("/delete")
