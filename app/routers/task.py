@@ -12,7 +12,7 @@ async def get_task_by_id():
 async def create_task():
     pass
 
-@router.post("/update")
+@router.put("/update")
 async def update_task():
     pass
 @router.delete("/delete")
